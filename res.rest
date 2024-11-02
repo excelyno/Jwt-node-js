@@ -7,3 +7,15 @@ Content-Type: application/json
   "password": "123",
   "confPassword": "123"
 }
+
+###
+GET http://localhost:5000/users
+
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+  "email": "rajeya@gmail.com",
+  "password": "123"
+}
