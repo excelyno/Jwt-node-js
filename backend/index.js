@@ -1,5 +1,6 @@
 import express from "express"
 import dotenv from "dotenv";
+import cookieParser from "cookie-parser";
 import db from "./config/Database.js";
 import router from "./routes/index.js";
 
@@ -13,6 +14,8 @@ try{
 } catch (error){
     console.log(Error)
 }
+
+app.use(cookieParser());
 
 app.use(express.json())
 

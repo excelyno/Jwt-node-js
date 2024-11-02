@@ -19,3 +19,11 @@ Content-Type: application/json
   "email": "rajeya@gmail.com",
   "password": "123"
 }
+
+###
+GET http://localhost:5000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsIm5hbWUiOiJNdXRpYSBkaWxpbWVydSBhcmpheWFudGkiLCJlbWFpbCI6InJhamV5YUBnbWFpbC5jb20iLCJpYXQiOjE3MzA1MTkyNDYsImV4cCI6MTczMDUxOTI2MX0.J3dGv8Mo_b94dQKPYG3ry4ap7LE4gpClX2sYXolgeKQ
+
+
+###
+GET http://localhost:5000/token
