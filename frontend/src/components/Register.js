@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const login = () => {
+export const Register = () => {
   return (
     <section className="hero has-background-grey-light is-fullheight is-fullwidth">
       <div className="hero-body">
@@ -9,9 +9,15 @@ export const login = () => {
                 <div className="column is-4-desktop">
                     <form className='box'>
                         <div className="field mt-5">
-                            <label className='label'>Email or Username</label>
+                            <label className='label'>Name</label>
                             <div className="controls">
-                                <input type="text"className='input' placeholder='Username' />
+                                <input type="text"className='input' placeholder='Name' />
+                            </div>
+                        </div>
+                        <div className="field mt-5">
+                            <label className='label'>Email</label>
+                            <div className="controls">
+                                <input type="text"className='input' placeholder='Email' />
                             </div>
                         </div>
                         <div className="field mt-5">
@@ -21,7 +27,13 @@ export const login = () => {
                             </div>
                         </div>
                         <div className="field mt-5">
-                            <button className='button is-success is-fullwidth'>login</button>
+                            <label className='label'>Confirm Password</label>
+                            <div className="controls">
+                                <input type="password"className='input' placeholder='********' />
+                            </div>
+                        </div>
+                        <div className="field mt-5">
+                            <button className='button is-success is-fullwidth'>Register</button>
                             </div>
                     </form>
                 </div>
@@ -33,4 +45,4 @@ export const login = () => {
   )
 }
 
-export default login
+export default Register
