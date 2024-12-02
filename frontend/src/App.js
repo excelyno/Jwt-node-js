@@ -1,8 +1,8 @@
-import login from "./components/login";
+import Login from "./components/login.js";
 function App() {
   return (
     <div>
-      <login/>
+      <Login/>
     </div>
   );
 }
